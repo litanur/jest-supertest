@@ -1,0 +1,194 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 2,
+  "numPassedTests": 4,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 2,
+  "numTotalTests": 4,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1628050263605,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1628050271081,
+        "runtime": 7408,
+        "slow": true,
+        "start": 1628050263673
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/home/x240/NodeJS/jest-supertest/__test__/postAndGet.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "POST request"
+          ],
+          "duration": 6224,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "POST request Create user data",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Create user data"
+        },
+        {
+          "ancestorTitles": [
+            "GET all user details"
+          ],
+          "duration": 736,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "GET all user details GET user output",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "GET user output"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1628050273688,
+        "runtime": 2560,
+        "slow": false,
+        "start": 1628050271128
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/home/x240/NodeJS/jest-supertest/__test__/putAndDelete.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "PUT user details"
+          ],
+          "duration": 1221,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "PUT user details Update user now",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Update user now"
+        },
+        {
+          "ancestorTitles": [
+            "DELETE user details"
+          ],
+          "duration": 1174,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "DELETE user details Delete request",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Delete request"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false,
+  "coverageMap": {
+    "/home/x240/NodeJS/jest-supertest/commonTests.js": {
+      "path": "/home/x240/NodeJS/jest-supertest/commonTests.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 16
+          },
+          "end": {
+            "line": 1,
+            "column": 36
+          }
+        },
+        "1": {
+          "start": {
+            "line": 2,
+            "column": 16
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        },
+        "2": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 18,
+            "column": 1
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "f2cb29f5ebc674ea4a32fffdfffcd025d2b94747"
+    }
+  }
+}
