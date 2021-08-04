@@ -11,7 +11,10 @@
     "verbose": true,
     "testSequencer": "/home/x240/NodeJS/jest-supertest/testSequencer.js",
     "coverageDirectory": "/home/x240/NodeJS/jest-supertest/coverage/my_reports/",
-    "coverageReporters": ["html","text"],
+    "coverageReporters": [
+      "html",
+      "text"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 100,
@@ -40,6 +43,7 @@
   "devDependencies": {
     "jest": "^27.0.6",
     "jest-serial-runner": "^1.1.0",
-    "jest-stare": "^2.2.2"
+    "jest-stare": "^2.2.2",
+    "supertest": "^6.1.4"
   }
 }
