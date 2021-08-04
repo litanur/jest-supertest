@@ -1,0 +1,45 @@
+{
+  "name": "jest-supertest",
+  "version": "1.0.0",
+  "description": "building a scalable api testing framework with jest and supertest",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_TLS_REJECT_UNAUTHORIZED=0 jest --reporters default jest-stare --coverage --detectOpenHandles --runInBand --testTimeout=60000",
+    "test:watch": "jest --verbose --watchAll"
+  },
+  "jest": {
+    "verbose": true,
+    "testSequencer": "/home/x240/NodeJS/jest-supertest/testSequencer.js",
+    "coverageDirectory": "/home/x240/NodeJS/jest-supertest/coverage/my_reports/",
+    "coverageReporters": ["html","text"],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litanur/jest-supertest.git"
+  },
+  "keywords": [
+    "jest",
+    "supertest",
+    "node.js",
+    "express"
+  ],
+  "author": "litanur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/litanur/jest-supertest/issues"
+  },
+  "homepage": "https://github.com/litanur/jest-supertest#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "jest-serial-runner": "^1.1.0",
+    "jest-stare": "^2.2.2"
+  }
+}
